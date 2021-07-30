@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+header{
+    background-color: #2b302a;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: -16px;
+    font-family: "Montserrat", Arial, Tahoma, sans-serif;
+}
+.logo{
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+.col-md-3{
+    display: flex;
+}
+.menu li{
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 17px;
+    padding:0 30px;
+    color: #fff;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo-img{
+    width: 142px;
+    display: flex;
+    margin:20px;
+}
+.col-md-12{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.col-md-7{
+    flex: 0 0 58.33333%;
+    max-width: 58.33333%; 
+}
+.col-md-2{
+    display: flex;
+}
+.buy-now{
+    display: flex;
+    align-items: center;
+    width: 140px;
+    justify-content: flex-end;
+}
+.buy-now-btn{
+    background-color: #ac8a62;
+    border: none;
+    height: 80px;
+    width: 100%;
+}
+.buy-now-btn a{
+    text-decoration: none;
+    color: #2b302a;  
+}
+.buy-now-btn strong{
+    font-size: 17px;
+}
