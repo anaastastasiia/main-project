@@ -86,26 +86,30 @@ header{
 .buy-now-btn strong{
     font-size: 17px;
 }
-section{
+.first-block{
     width: 100%;
     height: 820px;
+    background-color: rgb(216, 118, 118);
 }
  .the-biggest-image  {
     background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-slider-bg.jpg);
     background-repeat: no-repeat;
     height: 720px;
-    /* line-height: 820px; */
+    display: flex;
 } 
 .the-biggest-image-content {
     background-color: rgb(72, 82, 70);
-    width: 700px;
-    height: 400px;
-    align-items: flex-end
-    ;
+    align-items: flex-end;
     justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
-    padding: 25px;
+    /* padding: 25px; */
+}
+.row-the-biggest-image{
+    width: 700px;
+    height: 400px;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
 }
 #hot-title{
     font-family: "Montserrat",sans-serif;
@@ -133,15 +137,9 @@ section{
     margin: 0px 50px 50px 50px;
     justify-content: center;
 }  
-/* }
-.read-article-btn{
-    /* transform: matrix(0, -1, 1, 0, 0, 0); */
-/*     
-    display: flex;
-} */ 
+
 .the-biggest-image-content a{
     transform: matrix(0, -1, 1, 0, 0, 0);
-    
     display: flex;
     text-decoration: none;
     color:black;
@@ -152,4 +150,5 @@ section{
     font-weight: bolder;
     padding: 5px 32px;
     justify-content: flex-end;
+    /* margin-left:300px; */
 }
