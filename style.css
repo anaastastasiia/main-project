@@ -89,13 +89,14 @@ header{
 .first-block{
     width: 100%;
     height: 820px;
-    background-color: rgb(216, 118, 118);
+    background-color: rgb(54, 63, 54);
 }
  .the-biggest-image  {
     background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger3-slider-bg.jpg);
     background-repeat: no-repeat;
     height: 720px;
     display: flex;
+    align-items: flex-end;
 } 
 .the-biggest-image-content {
     background-color: rgb(72, 82, 70);
@@ -108,8 +109,12 @@ header{
 .row-the-biggest-image{
     width: 700px;
     height: 400px;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    margin-bottom: -105px;
 }
 #hot-title{
     font-family: "Montserrat",sans-serif;
@@ -134,11 +139,12 @@ header{
     line-height: 25px;
     /* margin-left:70px; */
     width: 450px;
-    margin: 0px 50px 50px 50px;
+    margin: 0px 50px 100px 50px;
     justify-content: center;
 }  
 
-.the-biggest-image-content a{
+.read-article-btn a{
+    width: 300px;
     transform: matrix(0, -1, 1, 0, 0, 0);
     display: flex;
     text-decoration: none;
@@ -150,5 +156,6 @@ header{
     font-weight: bolder;
     padding: 5px 32px;
     justify-content: flex-end;
-    /* margin-left:300px; */
+    margin-left:515px;
+    margin-top: -282px;
 }
