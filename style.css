@@ -262,7 +262,7 @@ header {
 .adventures-articles{
     display: flex;
     width: 68.81481%;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .adventures-articles img{
     width: 461.34px;
@@ -273,6 +273,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 25px 35px 25px 35px;
+    margin-top: -3px;
     /* width: 85%;
     top: -55px;
     padding: 25px 35px; */
@@ -305,6 +306,34 @@ header {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 15px;
     /* line-height: 60px; */
-    height: 90px;
-    width: 255px;
+    /* height: 90px;
+    width: 255px; */
+}
+.articles-author {
+    border-top-color: rgba(255, 14, 14, 0.1);
+    background: none;
+    margin-top: 20px;
+    padding: 15px 0 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+
+}
+#authors-ph {
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+    border-radius: 50%;
+}
+.articles-author a{
+    text-decoration: none;
+    color: #ac8a62;
+    margin-top:5px;
+    width: 100%;
+}
+.articles-author span{
+    color: #DEDEDE;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    width: 100%;
 }
