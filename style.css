@@ -304,8 +304,8 @@ header {
 .adv-art-content p{
     color: rgba(255,255,255,.6);
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
-    font-size: 15px;
-    /* line-height: 60px; */
+    font-size: 16px;
+    line-height: 30px;
     /* height: 90px;
     width: 255px; */
 }
@@ -336,4 +336,81 @@ header {
     font-family: "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 15px;
     width: 100%;
+}
+.more-btn{
+    display:flex;
+    width: 100%;
+}
+.more-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+.more-text a{
+    text-decoration: underline #ac8a62;
+    color:#fff;
+    padding: 60px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+.small-title:hover img{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);  
+    
+}
+.small-title img{
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.three-person-ph-block{
+    padding-top: 300px;
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-home-3-gys.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 754px;
+    display: flex;
+    justify-content: center;
+}
+.quotes{
+    padding: 90px 4% 25px;
+    background-image: url(https://themes.muffingroup.com/be/blogger3/wp-content/uploads/2019/10/blogger-quotes-bg2.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 460px;
+    display: flex;
+    width: 33.33334%;
+    flex-direction: column;
+    margin-left: 490px;
+}
+.quotes h2{
+    color: #504840;
+    font-size: 26px;
+    line-height: 34px;
+    font-weight: 700;
+    /* width: 50%; */
+    /* height: 200px; */
+}
+.quotes-author-with-img {
+    display: flex;
+    margin-top:45px;
+
+}
+.quotes-author a{
+    text-decoration: none;
+    color:#504840;
+}
+#quotes-name {
+    font-weight: 700;
+}
+.quotes-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    line-height: 25px;
 }
