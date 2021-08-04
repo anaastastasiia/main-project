@@ -25,7 +25,7 @@ header {
 
 .menu {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     height: 80px;
     align-items: center;
     margin-top: 0;
@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     display: flex;
     height: 80px;
