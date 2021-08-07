@@ -270,7 +270,12 @@ header {
 .small-title {
     display: flex;
 }
-
+.adv-art-content a:hover {
+    color: rgba(255,255,255,.8);
+}
+.more-text a:hover {
+    color: rgba(240, 238, 235, 0.62);
+}
 .adventures-articles {
     display: flex;
     width: 68.81481%;
@@ -515,6 +520,9 @@ header {
     width: 300px;
     margin-top: -2px;
 }
+.pl-art-content a:hover{
+    color: rgba(0,0,0,.8);
+}
 .pl-art-first img{
     width: 300px;
 }
@@ -663,6 +671,9 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+.guid-art-content a:hover{
+    color: rgba(0,0,0,.8);
+}
 .guid-art-second h2{
     color: #504840;
     font-size: 30px;
@@ -769,6 +780,7 @@ footer{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 40px;
 }
 .last-text{
     display: flex;
@@ -798,4 +810,7 @@ footer{
     display: flex;
     justify-content: center;
     color:#939993;
+}
+.join-us-content button:hover{
+    background-color: #a67b4a;
 }
