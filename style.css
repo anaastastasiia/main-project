@@ -54,7 +54,11 @@ header {
     list-style: none;
 
 }
-
+.row-menu{
+    position: fixed;
+    width: 101%;
+    background-color: rgba(43,48,42, 0.8);
+}
 .menu a {
     text-decoration: none;
     font-size: 17px;
